@@ -47,8 +47,8 @@ end
 
 #learn-rails
 gem 'bootstrap-sass'
-gem 'gibbon'
-gem 'high_voltage'
+#gem 'gibbon'
+#gem 'high_voltage'
 gem 'simple_form'
 
 group :development do
