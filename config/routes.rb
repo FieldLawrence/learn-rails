@@ -1,5 +1,6 @@
 Rails.application.routes.draw do
-  root to: redirect('/about.html')
+  root "pages#home"
+  get "about" => "pages#about"
   root to: 'visitors#new'
   resources :abouts
   resources :homes
